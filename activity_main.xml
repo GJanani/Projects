@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CREATE ACCOUNT"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="center">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rect"
+                android:padding="10dp"
+                android:text="First Name"
+                android:textColor="#8D8888"
+                android:layout_margin="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rect"
+                android:text="Last Name"
+                android:textColor="#8D8888"
+                android:padding="10dp"
+                android:layout_margin="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Email"
+                android:padding="10dp"
+                android:textColor="#8D8888"
+                android:background="@drawable/rect"
+                android:layout_margin="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:padding="10dp"
+                android:background="@drawable/rect"
+                android:text="Password"
+                android:textColor="#8D8888"
+                android:layout_margin="20dp">
+            </EditText>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/rect"
+                android:text="Confirm Password"
+                android:textColor="#8D8888"
+                android:padding="10dp"
+                android:layout_margin="20dp">
+            </EditText>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:paddingLeft="40dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rectc"
+                android:textColor="#ffff"
+                android:text="SIGN UP">
+            </Button>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="50dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Already have an account? login ">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
